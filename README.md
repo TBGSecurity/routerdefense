@@ -1,15 +1,22 @@
 routerdefense
 =============
 
-Router Defense deep dives into Cisco routers and switches configuration and do security recommandations.
-It gives the opportunity to audit network devices in a quick, efficient way and actionable practices.
+Router Defense deep dives into Cisco router and switch configuration files and provides security recommendations.
+It gives the opportunity to audit network devices in a quick, efficient way and provides actionable remediation actions.
 
-The tool has been released at the BRUCON 2010 conference and includes around 140 tests.
-It requires Python 2.7.
+The tool was originally released at the BRUCON 2010 conference and included around 140 tests.
+
+It has been forked and now maintained by Ryan Hays at TBG Security.
+
+# Requirements
+
+Python 2.7
+reportlab (pip install reportlab)
 
 ## Linux installation
 
-Install reportlab to render PDF reports.
+`git clone git@github.com:TBGSecurity/routerdefense.git`
+`pip install reportlab`
 
 ## Windows installation
 
